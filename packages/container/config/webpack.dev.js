@@ -24,9 +24,7 @@ const devConfig={
             },
             shared : packageJson.dependencies
         }),
-        new HtmlWebpackPlugin({
-            template:'./public/index.html'
-        })
+       
     ]
 }
 
